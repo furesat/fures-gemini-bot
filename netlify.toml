@@ -1,2 +1,4 @@
 [build]
-functions = "functions"
+  functions = "functions"
+  # Pause automatic Netlify builds. Remove this line to re-enable them.
+  ignore = "exit 0"
